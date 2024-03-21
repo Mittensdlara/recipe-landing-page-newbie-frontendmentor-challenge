@@ -1,0 +1,54 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--Eggshell);
+  color: var(--DarkCharcoal);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.prep {
+    background-color: var(--RoseWhite);
+    line-height: 2rem;
+}
+.main-header {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-container {
+   width: 60%;
+/* margin-bottom: 50px;
+   margin-top: 50px; */
+}
+.ingredient h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ingredient ul {
+    line-height: 2rem;
+}
+.instructure ol {
+    line-height: 2rem;
+
+}
+.instructure h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nutrition h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
